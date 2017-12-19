@@ -14,6 +14,7 @@ class HiddenLabelVC: UIViewController {
     @IBOutlet weak var withDealNumLbl: UILabel!
     @IBOutlet weak var youSaveLbl: UILabel!
     @IBOutlet weak var youSaveNumLbl: UILabel!
+    @IBOutlet weak var pinkLbl: UILabel!
     
     
     override func viewDidLoad() {
@@ -36,7 +37,9 @@ class HiddenLabelVC: UIViewController {
         self.youSaveLbl.isHidden = !self.youSaveLbl.isHidden
         
         self.youSaveNumLbl.isHidden = !self.youSaveNumLbl.isHidden
-       // print("tap")
+        
+        self.pinkLbl.isHidden = !self.pinkLbl.isHidden
+
     }
     
 }

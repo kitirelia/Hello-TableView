@@ -403,21 +403,29 @@
                                     <action selector="runitTapped:" destination="4t8-uS-yj0" eventType="touchUpInside" id="Pnb-vZ-ikZ"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K94-Pr-wGG">
+                                <rect key="frame" x="20" y="497" width="728" height="61"/>
+                                <string key="text">The next generation of our best-reviewed Fire tablet, with up to 12 hours of battery life, a vibrant 8" HD display, a 1.3 GHz quad-core processor, 1.5 GB of RAM, and Dolby Audio. More durable than the latest iPad.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.1857388616" blue="0.57339501380000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="Gwg-hd-aix" firstAttribute="leading" secondItem="FTJ-yL-iF1" secondAttribute="leading" id="2dp-ff-dcp"/>
                             <constraint firstItem="ib9-qF-PDM" firstAttribute="trailing" secondItem="XJD-6X-OF4" secondAttribute="trailing" constant="30" id="5d4-8J-MS6"/>
                             <constraint firstItem="FTJ-yL-iF1" firstAttribute="leading" secondItem="awM-Ut-irO" secondAttribute="trailing" constant="10" id="7FG-bb-YO6"/>
+                            <constraint firstItem="XJD-6X-OF4" firstAttribute="top" secondItem="K94-Pr-wGG" secondAttribute="bottom" constant="97" id="9Cw-mE-MJl"/>
                             <constraint firstItem="EnP-gA-h6d" firstAttribute="top" secondItem="rNj-mx-fQt" secondAttribute="bottom" constant="10" id="Ec6-Ci-mjb"/>
                             <constraint firstItem="eyM-HU-8oU" firstAttribute="leading" secondItem="awM-Ut-irO" secondAttribute="trailing" constant="8" id="Hfo-O9-Bd0"/>
+                            <constraint firstItem="K94-Pr-wGG" firstAttribute="top" secondItem="Gwg-hd-aix" secondAttribute="bottom" priority="500" constant="65" id="KsB-n0-l8K"/>
                             <constraint firstItem="EnP-gA-h6d" firstAttribute="trailing" secondItem="FTJ-yL-iF1" secondAttribute="trailing" id="MqU-lf-Din"/>
                             <constraint firstItem="rNj-mx-fQt" firstAttribute="leading" secondItem="FTJ-yL-iF1" secondAttribute="leading" id="MvN-3I-OfT"/>
                             <constraint firstItem="rNj-mx-fQt" firstAttribute="trailing" secondItem="9Ng-x9-DAJ" secondAttribute="trailing" id="NIg-az-qKs"/>
                             <constraint firstItem="Gwg-hd-aix" firstAttribute="top" secondItem="EnP-gA-h6d" secondAttribute="bottom" constant="10" id="NVf-4D-7Z9"/>
                             <constraint firstItem="rNj-mx-fQt" firstAttribute="top" secondItem="AY5-HT-WYe" secondAttribute="bottom" constant="40" id="OoM-jQ-9cp"/>
                             <constraint firstItem="AY5-HT-WYe" firstAttribute="trailing" secondItem="FTJ-yL-iF1" secondAttribute="trailing" id="Qxt-6f-qK7"/>
-                            <constraint firstItem="XJD-6X-OF4" firstAttribute="top" secondItem="Gwg-hd-aix" secondAttribute="bottom" constant="223" id="ShL-ye-DNO"/>
                             <constraint firstItem="AY5-HT-WYe" firstAttribute="leading" secondItem="FTJ-yL-iF1" secondAttribute="leading" id="Wj1-WC-hWj"/>
                             <constraint firstAttribute="trailing" secondItem="eyM-HU-8oU" secondAttribute="trailing" constant="8" id="aP4-z0-g8K"/>
                             <constraint firstItem="EnP-gA-h6d" firstAttribute="leading" secondItem="FTJ-yL-iF1" secondAttribute="leading" id="bXj-VN-c1k"/>
@@ -426,14 +434,18 @@
                             <constraint firstItem="awM-Ut-irO" firstAttribute="height" secondItem="LUb-Xd-Bfc" secondAttribute="height" multiplier="0.4" id="drJ-eF-AwZ"/>
                             <constraint firstItem="awM-Ut-irO" firstAttribute="top" secondItem="ib9-qF-PDM" secondAttribute="top" constant="8" id="fWM-z6-o3a"/>
                             <constraint firstItem="FTJ-yL-iF1" firstAttribute="top" secondItem="eyM-HU-8oU" secondAttribute="bottom" constant="20" id="g8O-V8-QWP"/>
+                            <constraint firstItem="ib9-qF-PDM" firstAttribute="trailing" secondItem="K94-Pr-wGG" secondAttribute="trailing" constant="20" id="gsj-Cv-bnM"/>
                             <constraint firstItem="eyM-HU-8oU" firstAttribute="top" secondItem="awM-Ut-irO" secondAttribute="top" id="hWs-M7-Or3"/>
                             <constraint firstItem="ib9-qF-PDM" firstAttribute="trailing" secondItem="FTJ-yL-iF1" secondAttribute="trailing" constant="10" id="lcF-3c-2Et"/>
+                            <constraint firstItem="XJD-6X-OF4" firstAttribute="top" secondItem="Gwg-hd-aix" secondAttribute="bottom" priority="999" constant="223" id="plf-OF-DAq"/>
                             <constraint firstItem="XJD-6X-OF4" firstAttribute="leading" secondItem="ib9-qF-PDM" secondAttribute="leading" constant="30" id="tPQ-ci-2Xw"/>
                             <constraint firstItem="Gwg-hd-aix" firstAttribute="trailing" secondItem="FTJ-yL-iF1" secondAttribute="trailing" id="tVH-3q-oPs"/>
+                            <constraint firstItem="K94-Pr-wGG" firstAttribute="leading" secondItem="ib9-qF-PDM" secondAttribute="leading" constant="20" id="xyf-hc-H9y"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ib9-qF-PDM"/>
                     </view>
                     <connections>
+                        <outlet property="pinkLbl" destination="K94-Pr-wGG" id="jCD-Xt-60F"/>
                         <outlet property="withDealLbl" destination="C6O-bg-VqJ" id="UCw-VW-SOg"/>
                         <outlet property="withDealNumLbl" destination="vVT-j0-20Q" id="Qz7-Et-41H"/>
                         <outlet property="youSaveLbl" destination="1F5-VU-SiR" id="3o7-I3-iSx"/>
