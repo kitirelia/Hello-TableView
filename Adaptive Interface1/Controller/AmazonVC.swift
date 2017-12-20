@@ -30,9 +30,9 @@ class AmazonVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-//        productImage.sd_setImage(with: URL(string: "https://images-na.ssl-images-amazon.com/images/I/6191ggO9g%2BL._SL1000_.jpg"), placeholderImage: nil, options: SDWebImageOptions.progressiveDownload) { (uiImage, error, cache, url) in
-//            
-//        }
+        productImage.sd_setImage(with: URL(string: "https://images-na.ssl-images-amazon.com/images/I/6191ggO9g%2BL._SL1000_.jpg"), placeholderImage: nil, options: SDWebImageOptions.progressiveDownload) { (uiImage, error, cache, url) in
+            
+        }
 
         // Do any additional setup after loading the view.
     }
